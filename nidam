@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>NİDA'M</title>
+</head>
+<body>
+  <h1>Hoş Geldin Güzelim!</h1>
+  <p
+
+<button onclick="document.getElementById('bgMusic').play()">Müziği Başlat </button>
+<audio id="bgMusic" loop>  <source src="mp3.mp3" type="audio/mpeg"></audio>
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bizim Hikayemiz</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #ffeef2;
+      color: #5a2a27;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px 30px;
+      background-color: #ffccd5;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .gallery img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .note {
+      background-color: #fff0f5;
+      margin: 40px 20px;
+      padding: 30px;
+      border-radius: 10px;
+      font-size: 1.1em;
+      line-height: 1.6;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    footer {
+      padding: 20px;
+      background-color: #ffccd5;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>💖 Bizim Hikayemiz 💖</h1>
+    <p>İlk tanıştığımız günden bu yana bir masal gibi...</p>
+  </header>
+
+  <section class="gallery">
+    <img src="foto1.jpg" alt="Birlikte gülümsediğimiz an">
+    <img src="foto2.jpg" alt="Sevgi dolu bir sarılma">
+    <img src="foto3.jpg" alt="Beraber bir gün batımı">
+    <img src="foto4.jpg" alt="Beraber bir gün batımı">
+    <img src="foto5.png" alt="Beraber bir gün batımı">
+    <img src="foto6.jpg" alt="Beraber bir gün batımı">
+    <img src="foto7.jpg" alt="Beraber bir gün batımı">
+    <img src="foto8.jpg" alt="Beraber bir gün batımı">
+    <img src="foto9.png" alt="Beraber bir gün batımı">
+    <!-- İstediğin kadar fotoğraf ekleyebilirsin -->
+  </section>
+
+  <div class="note">
+    <p>Seninle geçirdiğim her an, kalbimde sonsuza dek iz bırakıyor. Gözlerine her baktığımda, hayatımın en güzel kararını verdiğimi hatırlıyorum. Seni seviyorum... 💘</p>
+  </div>
+
+  <footer>
+    &copy; 2025 - Sadece Sen ve Ben 🌹
+  </footer>
+</body>
+</html>
